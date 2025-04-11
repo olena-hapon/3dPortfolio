@@ -149,7 +149,6 @@ const Servises = () => {
               </div>
               <div className={styles.info}>
                 <h2>{scill.title}</h2>
-                {/* <h3>{service.counter}</h3> */}
               </div>
             </motion.div>
           ))}

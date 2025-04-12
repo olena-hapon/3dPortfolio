@@ -1,8 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "3dPrtfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://olena-hapon.github.io/3dPortfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

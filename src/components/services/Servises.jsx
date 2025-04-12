@@ -38,82 +38,82 @@ const listVariants = {
 const scills = [
   {
     id: 1,
-    img: "/scills/css.png",
+    img: "./scills/css.png",
     title: "CSS",
   },
   {
     id: 2,
-    img: "/scills/html.png",
+    img: "./scills/html.png",
     title: "HTML",
   },
   {
     id: 3,
-    img: "/scills/js.png",
+    img: "./scills/js.png",
     title: "JS",
   },
   {
     id: 4,
-    img: "/scills/react.png",
+    img: "./scills/react.png",
     title: "REACT",
   },
   {
     id: 5,
-    img: "/scills/next.svg",
+    img: "./scills/next.svg",
     title: "NEXT.JS",
   },
   {
     id: 6,
-    img: "/scills/redux.png",
+    img: "./scills/redux.png",
     title: "REDUX",
   },
   {
     id: 7,
-    img: "/scills/json.png",
+    img: "./scills/json.png",
     title: "JSON",
   },
   {
     id: 8,
-    img: "/scills/figma.png",
+    img: "./scills/figma.png",
     title: "FIGMA",
   },
   {
     id: 9,
-    img: "/scills/git.png",
+    img: "./scills/git.png",
     title: "GIT",
   },
   {
     id: 10,
-    img: "/scills/github.png",
+    img: "./scills/github.png",
     title: "GITHUB",
   },
   {
     id: 11,
-    img: "/scills/sass.png",
+    img: "./scills/sass.png",
     title: "SASS",
   },
   {
     id: 12,
-    img: "/scills/ts.png",
+    img: "./scills/ts.png",
     title: "TS",
   },
   {
     id: 13,
-    img: "/scills/vscode.png",
+    img: "./scills/vscode.png",
     title: "VS CODE",
   },
   {
     id: 14,
-    img: "/scills/api.png",
+    img: "./scills/api.png",
     title: "API",
   },
   {
     id: 15,
-    img: "/scills/database.png",
+    img: "./scills/database.png",
     title: "DATA BASE",
   },
   {
     id: 16,
-    img: "/scills/database.png",
+    img: "./scills/database.png",
     title: "DATA BASE",
   },
 ];

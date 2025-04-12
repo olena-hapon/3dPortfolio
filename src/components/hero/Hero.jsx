@@ -32,17 +32,6 @@ const followVariants = {
   },
 };
 
-// const girl = {
-//   initial: {
-//     y: -100,
-//     opacity: 0
-//   },
-//   animate: {
-//     y: 0,
-//     opacity: 1,
-//   }
-// }
-
 const Hero = () => {
   return (
     <div className={styles.hero}>
@@ -125,13 +114,13 @@ const Hero = () => {
             variants={followVariants}
             href="/"
           >
-            <img src="/instagram.png" alt="" />
+            <img src="./instagram.png" alt="" />
           </motion.a>
           <motion.a
             variants={followVariants}
             href="/"
           >
-            <img src="/facebook.png" alt="" />
+            <img src="./facebook.png" alt="" />
           </motion.a>
           <motion.div
             variants={followVariants}
@@ -193,13 +182,8 @@ const Hero = () => {
       </div>
 
       <div className={styles.bg}>
-        {/* <Canvas>
-          <Suspense fallback="loading">
-          <Shape />
-          </Suspense>
-        </Canvas> */}
         <motion.div className={styles.hImg} initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.5, delay: 1.6 }}>
-          <img src="/girl2.png" alt="" />
+          <img src="./girl2.png" alt="" />
         </motion.div>
       </div>
     </div>

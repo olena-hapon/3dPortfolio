@@ -137,13 +137,6 @@
     margin-block-start: 30px;
   }
 
-  /* .bg {
-    height: 60%;
-    top: 0;
-    right: 0;
-    bottom:  0;
-  } */
-
   .hImage {
     height: 100%;
   }
@@ -162,14 +155,6 @@
   .hSection.right {
     width: 40%;
   }
-
-  /* .bg {
-    height: 60%;
-  } */
-
-  /* .hSection {
-    width: 100%;
-  } */
 
   .hTitle {
     font-size: 48px;

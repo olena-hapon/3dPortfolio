@@ -113,8 +113,8 @@ const scills = [
   },
   {
     id: 16,
-    img: "./scills/database.png",
-    title: "DATA BASE",
+    img: "./scills/node.png",
+    title: "Node JS",
   },
 ];
 

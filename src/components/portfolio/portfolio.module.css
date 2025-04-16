@@ -37,18 +37,16 @@
 }
 
 .image {
-  width: 50%;
+  width: 500px;
   height: 300px;
-  overflow: visible; 
-  border-radius: 15px; 
+  overflow: visible;
   position: relative;
 }
 
 .image .img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
+  object-fit: contain;
   transition: transform 0.3s ease-in-out; 
 }
 
@@ -154,6 +152,7 @@
 
   .image {
     height: 200px;
+    width: 200px;
   }
 
   p {

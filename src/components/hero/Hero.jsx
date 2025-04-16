@@ -36,6 +36,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <BackGround />
+      <div className={styles.container}>
       <div className={`${styles.hSection} ${styles.left}`}>
         <motion.h1
           initial={{ y: -100, opacity: 0 }}
@@ -72,7 +73,7 @@ const Hero = () => {
             duration: 4,
             easy: "easeInOut",
           }}
-          href="#services"
+          href="#portfolio"
           className={styles.scroll}
         >
           <svg
@@ -112,9 +113,10 @@ const Hero = () => {
         >
           <motion.a
             variants={followVariants}
-            href="/"
+            href="https://github.com/olena-hapon"
+            target='blanc'
           >
-            <img src="./instagram.png" alt="" />
+            <img src="./scills/github.png" alt="" />
           </motion.a>
           <motion.a
             variants={followVariants}
@@ -186,6 +188,8 @@ const Hero = () => {
           <img src="./girl2.png" alt="" />
         </motion.div>
       </div>
+      </div>
+      
     </div>
   )
 }

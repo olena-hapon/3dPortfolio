@@ -15,14 +15,14 @@ const BackGround = () => {
         alt="Image"
         className="background-image"
         initial={{
-          width: '90vw',
-          height: '90vh',
+          width: '90%',
+          height: '90%',
          
           clipPath: 'polygon(50% 10%, 60% 50%, 50% 90%, 40% 50%)',
         }}
         animate={{
-          width: '100vw',
-          height: '100vh',
+          width: '100%',
+          height: '100%',
          
           clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
         }}

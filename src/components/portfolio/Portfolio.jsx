@@ -55,10 +55,18 @@ const items = [
   {
     id: 7,
     color: 'from-red-300 to-blue-300',
-    title: 'React Todo App',
-    desc: 'Landing page for Miami company. Presents the company itself, team, and services. Describes the benefits of the company. Contains a form for sending a request for a consultation. Layout is adaptive and responsive as well as cross-browser compatible. It works correctly on all screen sizes (mobile, tablet and desktop versions). Technologies used: HTML, CSS, SCSS, JavaScript, BEM methodology.',
-    img: './works/xclone.png',
-    link: 'https://olena-hapon.github.io/react_todo-app/',
+    title: 'Social media Next.js',
+    desc: 'This project is a modern full‑stack social media application built with Next.js 15 and MySQL, featuring real‑time notifications powered by Socket.io. It demonstrates server‑side rendering, efficient database management, and live communication between users, making it a comprehensive tutorial for building scalable, real‑time social media platforms.',
+    img: './works/social.png',
+    link: 'https://github.com/olena-hapon/Social',
+  },
+  {
+    id: 8,
+    color: 'from-red-300 to-blue-300',
+    title: 'Animated Portfolio Next.js',
+    desc: 'This project is an animated portfolio website built with Next.js, using Framer Motion for smooth animations and Tailwind CSS for responsive styling. It showcases creative projects with dynamic transitions and interactive effects for a modern, attractive presentation.',
+    img: './works/portfolio.png',
+    link: 'https://olena-hapon.github.io/Portfolio/about',
   }
 ]
 

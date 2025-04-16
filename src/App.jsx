@@ -5,24 +5,29 @@ import Servises from "./components/services/Servises"
 
 const App = () => {
   return (
-    <div className='container'>
+    <>
       <section id="#home">
-          <Hero />
+        <Hero />
       </section>
 
-       <section id="#services">
-        <Servises />
-      </section> 
+      <div className='container'>
+        <section id="services">
+          <Servises />
+        </section>
+      </div>
 
-       <section id="#portfolio" className="no-vh">
-        <Portfolio />
-      </section> 
+      <div className="container">
+        <section id="portfolio" className="no-vh">
+          <Portfolio />
+        </section>
+      </div>
 
-      <section id="#contact" className="no-vh">
-        <Contact />
-      </section>
-
-    </div>
+      <div className="container">
+        <section id="contact" className="no-vh">
+          <Contact />
+        </section>
+      </div>
+    </>
   )
 }
 

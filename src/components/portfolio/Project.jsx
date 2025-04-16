@@ -9,7 +9,9 @@ const Project = ({ project, index, isLast }) => {
   : `${styles.row} ${styles.reverse}`;
 
   return (
-    <motion.div
+    <motion.a
+      href={project.link}
+      target='blanc'
       className={`${styles.project} ${containerClass} `}
       initial={{ opacity: 0, y: 150 }}
       whileInView={{
@@ -88,7 +90,7 @@ const Project = ({ project, index, isLast }) => {
         )}
       </div>
       
-    </motion.div>
+    </motion.a>
   );
 };
 

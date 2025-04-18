@@ -131,7 +131,7 @@ const Servises = () => {
           animate={isInView ? "animate" : "initial"}
           className={styles.mainTitle}
         >
-          My scills?
+          My scills
         </motion.h1>
         <motion.div
           className={styles.list}
